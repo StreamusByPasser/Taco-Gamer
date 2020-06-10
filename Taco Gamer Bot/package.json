@@ -1,0 +1,32 @@
+{
+  "name": "taco_gamer",
+  "version": "0.0.1",
+  "description": "Music Bot for Discord",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "discord.js": "^12.2.0",
+    "fs": "^0.0.2",
+    "path": "^0.12.7",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^2.1.2",
+    "ytdl-core-discord": "^1.2.0",
+    "@discordjs/opus": "^0.3.2",
+    "genius-lyrics": "^2.0.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
